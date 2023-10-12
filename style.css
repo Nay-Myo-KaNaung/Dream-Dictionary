@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color:  	#8b9cf6;
+    font-size: 20px;
+}
+h1{
+    color: 	white;
+    text-shadow: #2E2B32 1px 1px,#2E2B32 0px 0px,#2E2B32 1px 1px,#2E2B32 2px 2px,#2E2B32 3px 3px,#2E2B32 4px 4px,#2E2B32 5px 5px,#2E2B32 6px 6px,#2E2B32 7px 7px,#2E2B32 8px 8px,#2E2B32 9px 9px,#2E2B32 10px 10px,#2E2B32 11px 11px,#2E2B32 12px 12px,#2E2B32 13px 13px,#2E2B32 14px 14px,#2E2B32 15px 15px,#2E2B32 16px 16px,#2E2B32 17px 17px,#2E2B32 18px 18px,#2E2B32 19px 19px,#2E2B32 20px 20px,#2E2B32 21px 21px,#2E2B32 22px 22px,#2E2B32 23px 23px,#2E2B32 24px 24px,#2E2B32 25px 25px,#2E2B32 26px 26px,#2E2B32 27px 27px,#2E2B32 28px 28px,#2E2B32 29px 29px;
+    text-align: center;
+    padding: 50px;
+    font-size: 3rem;
+}
+.container{
+    text-align: center;
+}
+.bht{
+    display: inline-block;
+    font-size: 15px;
+    background-color: #abb1fd;
+    margin: 20px;
+    padding: 40px;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+h2{
+    color: #3a3a3a;
+    background-color: #abb1fd;
+}
+.bdc{
+    display: block;
+    padding: 40px;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #abb1fd;
+}
+.bdc li{
+    color: black;
+    list-style-type: circle;
+    background-color: #abb1fd;
+    text-align: left;
+}
+.searchcontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+.searchcontainer label{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Hammersmith One';
+    text-shadow: -.08em .08em #1F1E23;
+}
+#searchbox{
+    padding: 20px;
+    text-align: right;
+    font-size: 40px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 80%;
+    font-size: 1rem;
+}
+#search{
+    width: 20%;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 30px;
+}
+.resultbox{
+    display: inline-block;
+    width: 80%;
+    padding: 20px;
+}
+.searchList{
+    margin: 5%;
+    width: 80%;
+    padding: 50px;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #abb1fd;
+}
+.searchList li{
+    background-color: transparent;
+    padding: 5px;
+    color: #222;
+    font-family: 'Hammersmith One';
+    text-shadow: -.08em .08em #8b9cf6;
+}
